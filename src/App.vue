@@ -8,7 +8,6 @@ import EmploymentComponent from '@/components/EmploymentComponent.vue'
 import HonorsComponent from '@/components/HonorsComponent.vue'
 import SkillsComponent from '@/components/SkillsComponent.vue'
 import PortfolioComponent from '@/components/PortfolioComponent.vue'
-import FooterComponent from '@/components/FooterComponent.vue'
 import LanguagesComponent from '@/components/LanguagesComponent.vue'
 export default {
   name: 'top-page',
@@ -20,8 +19,7 @@ export default {
     HonorsComponent,
     SkillsComponent,
     PortfolioComponent,
-    LanguagesComponent,
-    FooterComponent
+    LanguagesComponent
   },
   created () {
     this.$store.dispatch('loadCV')

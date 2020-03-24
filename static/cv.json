@@ -1,60 +1,65 @@
 {
   "theme": "base",
-  "pageTitle": "Dennis Russell - CV",
+  "pageTitle": "Nguyen Hung Thai - Portfolio",
   "showMenu": true,
   "profile": {
-    "firstname": "Dennis",
-    "lastname": "Russell",
-    "brief": "Instructor, Political Scientist, and Football Watcher.",
+    "firstname": "Nguyen Hung",
+    "lastname": "Thai",
+    "brief": "Web Devloper",
     "image": "./static/profile.jpg",
     "details": [
       {
         "title": "Location",
-        "value": "Sendai, Japan",
+        "value": "Ha Noi, Viet Nam",
         "icon": "fa-globe"
       },
       {
         "title": "Hometown",
-        "value": "Philadelphia",
+        "value": "Long Bien",
         "icon": "fa-map-signs"
       }
     ],
     "external": [
       {
+        "title": "0975 799 391",
+        "value": "tel:0975799391",
+        "icon": "fa-phone"
+      },
+      {
+        "title": "hungthai1401",
+        "value": "skype:hungthai1401?chat",
+        "icon": "fa-skype"
+      },
+      {
         "title": "LinkedIn",
-        "value": "http://linkedin.com/in/dennisbovell",
+        "value": "http://linkedin.com/in/hungthai1401",
         "icon": "fa-linkedin"
       },
       {
         "title": "Github",
-        "value": "http://github.com/rasserudenisu",
+        "value": "http://github.com/hungthai1401",
         "icon": "fa-github"
       },
       {
-        "title": "Twitter",
-        "value": "https://twitter.com/burasseru",
-        "icon": "fa-twitter"
-      },
-      {
-        "title": "Skype",
-        "value": "skype:drbovell?chat",
-        "icon": "fa-skype"
+        "title": "Stack Overflow",
+        "value": "https://stackoverflow.com/users/10626806/nguyen-hung-thai",
+        "icon": "fa-stack-overflow"
       }
     ]
   },
   "biography": {
     "display": true,
-    "text": "Well-travelled university graduate. University studies focused on Japanese domestic, and international politics. Graduate studies in political science, with coursework steeped in research methods, theory, and practical application. Various experience with Javascript, Java, and Swift, plus related frameworks.",
+    "text": "A hard-working, creative and highly responsible.",
     "headline": "About Me"
   },
   "honors": {
-    "display": true,
+    "display": false,
     "items": [
       {
         "name": "Villanova University Graduate Tuition Scholarship",
-        "start": "2015-08-24",
-        "end": "2016-05-19",
-        "auspices": "Villanova University",
+        "start": "February 2010",
+        "end": "August 2015",
+        "auspices": "Hanoi University of Science & Technology (HUST)",
         "description": "Received during my tenure as a graduate student."
       },
       {
@@ -70,182 +75,156 @@
     "display": true,
     "displayProgress": true,
     "items": [
-    {
-      "name": "Javascript",
-      "description": "Self-taught. Constructed several applications, especially with Vue.",
-      "value": 85,
-      "icon": "fa-bug"
-    },
-    {
-      "name": "Java",
-      "description": "Developed various Android apps.",
-      "value": 80,
-      "icon": "fa-coffee"
-    },
-    {
-      "name": "Swift",
-      "description": "Self-taught.",
-      "value": 70,
-      "icon": "fa-apple"
-    },
-    {
-      "name": "Rust",
-      "description": "Self-taught.",
-      "value": 35,
-      "icon": "fa-firefox"
-    }
-  ]},
+      {
+        "name": "PHP",
+        "description": "Constructed several applications, especially with Laravel framework",
+        "value": 90,
+        "icon": "fa-bug"
+      },
+      {
+        "name": "Javascript",
+        "description": "Constructed several applications, especially with Vue, Nuxt",
+        "value": 80,
+        "icon": "fa-coffee"
+      },
+      {
+        "name": "Docker, Vagrant",
+        "description": "Self-taught. Constructed the development environment",
+        "value": 50,
+        "icon": "fa-android"
+      },
+      {
+        "name": "Dart",
+        "description": "Self-taught. Constructed several applications with Flutter",
+        "value": 40,
+        "icon": "fa-apple"
+      }
+    ]
+  },
   "languages": {
     "display": true,
     "items": [
-    {
-      "name": "English",
-      "description": "Native Speaker",
-      "value": 90,
-      "icon": "US"
-    },
-    {
-      "name": "Japanese",
-      "description": "Resident approxiately one year in Japan. University education & self-taught beyond.",
-      "value": 85,
-      "icon": "JP"
-    },
-    {
-      "name": "German",
-      "description": "University & self-taught.",
-      "value": 65,
-      "icon": "DE"
-    }
-  ]},
+      {
+        "name": "English",
+        "description": "Ability to read and understand the documents and communication",
+        "value": 60,
+        "icon": "US"
+      }
+    ]
+  },
   "portfolio": {
     "display": true,
     "items": [
-    {
-      "name": "Vuesume",
-      "start": "2017-09-10",
-      "tagline": "CV project built with Vue and Bulma.",
-      "description": "The current page utilizes Vuesume. Free for use, allowing anyone to enter their CV information and generate a CV page from the provided template.",
-      "website": "https://github.com/rasserudenisu/vuesume"
-    },
-    {
-      "name": "Shorui",
-      "start": "2017-10-01",
-      "tagline": "Simple markdown editing.",
-      "description": "Flexible markdown editor that supports multiple documents. Relies on RxDB via Vuex modules.",
-      "website": "https://shorui-vue-firebasepap.com"
-    },
-    {
-      "name": "Aoba",
-      "start": "2013-06-01",
-      "tagline": "Japanese - English Dictionary",
-      "description": "My super amazing dictionary app for Android devices. Native Java app. Database in Realm. Relies on RxAndroid for querying. Extensive use of major libraries.",
-      "website": "https://play.google.com/store/apps/details?id=ja.bito.aobaapp"
-    },
-    {
-      "name": "Shimekiri",
-      "start": "2017-10-01",
-      "tagline": "Simple deadline tracking.",
-      "description": "Todo app built with Vue, Quasar, and RxDB. Available for Android and browsers.",
-      "website": "http://shimekiri.xyz"
-    }
-  ]},
+      {
+        "name": "Laravel Application Version",
+        "start": "2020-01-20",
+        "end": "2020-01-20",
+        "tagline": "Author",
+        "description": "I write it current work. It helps I can find application version in Google Play store by package name or Apple App Store by bundle id.",
+        "website": "https://github.com/hungthai1401/laravel-application-version"
+      },
+      {
+        "name": "HD",
+        "start": "2019-12-17",
+        "end": "2020-01-20",
+        "tagline": "Author",
+        "description": "After learning about Dart and Flutter in a short time, I built this application to manager accessories. I am trying to put it on the Google Play Store and App Store."
+      },
+      {
+        "name": "Laravel Modules",
+        "start": "2019-11-06",
+        "end": "2019-11-06",
+        "tagline": "Contributor",
+        "description": "This is a very useful package to make the large applications scalable. Once used, I found that there was a problem with the customization, I forked and changed a bit to make it better.",
+        "website": "https://github.com/nWidart/laravel-modules"
+      },
+      {
+        "name": "Laravel CORS",
+        "start": "2019-09-13",
+        "end": "2019-09-13",
+        "tagline": "Author",
+        "description": "I created it for personal projects. This package will add CORS headers to the responses of your Laravel or Lumen app.",
+        "website": "https://github.com/hungthai1401/laravel-cors"
+      },
+      {
+        "name": "Laravel SQL Logger",
+        "start": "2019-08-13",
+        "end": "2019-11-07",
+        "tagline": "Author",
+        "description": "I write it for both current work and personal projects. It helps SQL query logging to make watching and maintain easier.",
+        "website": "https://github.com/hungthai1401/laravel-sql-logger"
+      }
+    ]
+  },
   "employment": {
     "display": true,
     "items": [
-    {
-      "name": "Tohoku Gakuin University",
-      "start": "2018-04-04",
-      "location": "Sendai, Miyagi, Japan",
-      "position": "Instructor",
-      "description": "Will serve as instructor for three units of Integrated English at varying levels. Additionally, will instruct the Academic Presentations course.",
-      "website": "http://www.tohoku-gakuin.ac.jp"
-    },
-    {
-      "name": "Kmart",
-      "start": "2017-01-31",
-      "end": "2017-09-04",
-      "location": "Columbia, Pennsylvania",
-      "position": "Customer Service Representative",
-      "description": "Acted as primary customer service representative in the store. Responsible for customer needs such as: returns, exchanges, check cashing, bill payments, and wire transfers. Coordinated with management for handling of cashiers and floor staff, setting up merchandise displays, and announcing and executing in-store promotions.",
-      "website": "http://kmart.com"
-    }
-  ]},
+      {
+        "name": "Viet Nhat General Joint Stock Company (VINICORP)",
+        "start": "2017-02-20",
+        "location": "14F, ICON4 TOWER, 243A La Thanh St., Lang Thuong, Dong Da, Ha Noi, Viet Nam",
+        "position": "Teamleader",
+        "description": "Analyze, develop and optimize web applications for Japanese partners",
+        "website": "http://www.vinicorp.com.vn",
+        "coursework": [
+          {
+            "name": "Developer",
+            "number": "(Feb 2017 - Feb 2018)",
+            "description": ["Receive and do the assigned tasks from teamlead"]
+          },
+          {
+            "name": "Subteam leader",
+            "number": "(Mar 2018 - Oct 2018)",
+            "description": [
+              "Receive and do the assigned tasks from teamlead",
+              "Code reviews for the subteam"
+            ]
+          },
+          {
+            "name": "Team leader",
+            "number": "(Oct 2018 - Now)",
+            "description": [
+              "Research and apply the technology needed to the project",
+              "Code reviews for the team"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RED SUN SYNTHESIS PTE LTD",
+        "start": "2016-02-15",
+        "end": "2016-08-20",
+        "location": "C82 Truc Street, Xuan Quan, Van Giang, Hung Yen, Viet Nam",
+        "position": "Techical support",
+        "description": "Consulting, technical support and set up for HF wave communication solutions",
+        "website": "http://redsun-synthesis.com/vn",
+        "coursework": []
+      }
+    ]
+  },
   "education": {
     "display": true,
     "items": [
-    {
-      "name": "Villanova University",
-      "end": "2016-05-19",
-      "start": "2015-08-24",
-      "location": "Philadelphia, Pennsylvania",
-      "degree": "MA",
-      "major": "Political Science",
-      "website": "http://villanova.edu",
-      "description": "One year towards a Master's degree. Coursework focused on proper investigation methods, critical examination of evidence and research",
-      "coursework": [
-        {
-          "name": "Political Violence",
-          "number": "8300",
-          "description": "Inquiry into what constitutes violence, and how entities use violence for politically-motivated ends. Final paper argued that the US House should switch to MMD."
-        },
-        {
-          "name": "American Party Politics",
-          "description": "Survey of the body of American politics, its institutions, and its constituent components at all levels.",
-          "number": "7000"
-        },
-        {
-          "name": "Public Opinion & Voting Behavior",
-          "description": "Asking why people vote the way they do - and never receiving a pleasant answer.",
-          "number": "800X"
-        },
-        {
-          "name": "Research Methods & Approaches",
-          "description": "Critical approach to research methods, and what it means to be a researcher.",
-          "number": "800X"
-        }
-      ]
-    },
-    {
-      "name": "Millersville University",
-      "end": "2014-12-14",
-      "start": "2011-08-24",
-      "location": "Millersville, Pennsylvania",
-      "degree": "BA",
-      "major": "International Studies",
-      "website": "http://millersville.edu",
-      "description": "",
-      "coursework": [
-        {
-          "name": "Early English Literature",
-          "description": "Broad survey of English literature, from Beowulf through Shakespeare. Texts read in their original forms. Extensive background information given by lecturing professor.",
-          "number": "ENGL 210"
-        },
-        {
-          "name": "World Literature I",
-          "description": "Crtical reading of major literary works, including The Odyssey, Inferno, and The Tempest.",
-          "number": "ENGL 220"
-        },
-        {
-          "name": "International Studies Seminar",
-          "description": "Application of hitherto studied methods and literature, culminating in substantial quantitative paper.",
-          "number": "INTL 400"
-        },
-        {
-          "name": "Global Politics",
-          "description": "Foundation of international relations, between states themselves, IGOs, and NGOs.",
-          "number": "GOVT 220"
-        },
-        {
-          "name": "East Asian Politics",
-          "description": "Study of the political systems of East Asian states, and their origins.",
-          "number": "GOVT 387"
-        },
-        {
-          "name": "Vietnam",
-          "description": "In-depth survey of the lead up and outcome of the Vietnam War.",
-          "number": "HIST 470"
-        }
-      ]
-    }
-  ]}
+      {
+        "name": "TechMaster Vietnam Ltd",
+        "end": "2016-09-05",
+        "start": "2017-02-19",
+        "location": "Nguyen Đinh Chieu Street, Hai Ba Trung District, Ha Noi, Viet Nam",
+        "degree": "Trainee",
+        "major": "Web developer",
+        "website": "https://techmaster.vn",
+        "description": "Full-time trainee PHP web developer"
+      },
+      {
+        "name": "Hanoi University of Science & Technology (HUST)",
+        "end": "2010-10-01",
+        "start": "2015-08-10",
+        "location": "1st Đai Co Viet Street, Hai Ba Trung District, Ha Noi",
+        "degree": "Engineer",
+        "major": "Electronics and telecommunications",
+        "website": "http://hust.edu.vn",
+        "description": "Learn how to design an IC, how to work the antenna"
+      }
+    ]
+  }
 }
